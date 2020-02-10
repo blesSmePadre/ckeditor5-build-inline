@@ -10,6 +10,7 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
@@ -51,6 +52,7 @@ InlineEditor.builtinPlugins = [
 	ImageUpload,
 	Indent,
 	Link,
+	FontColor,
 	List,
 	MediaEmbed,
 	Paragraph,
@@ -68,6 +70,7 @@ InlineEditor.defaultConfig = {
 			'heading',
 			'|',
 			'bold',
+			'fontcolor',
 			'italic',
 			'link',
 			'strikethrough',
