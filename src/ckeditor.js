@@ -69,8 +69,9 @@ InlineEditor.defaultConfig = {
 		items: [
 			'heading',
 			'|',
-			'bold',
 			'fontcolor',
+			'|',
+			'bold',
 			'italic',
 			'link',
 			'strikethrough',
